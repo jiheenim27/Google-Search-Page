@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <header class="normal-header advanced-header">
+            <!--image search, advanced search btn-->
+            <i class="fab fa-google header-logo"></i>
+            <form action="index.html">
+                <button class="header-btn advanced-header-btn" type="submit">Back to Google</button>
+            </form>
+        </header>
+
+        <main class="advanced-main">
+            <!--google logo, search bar, two btn(search, feel lucky)-->
+            <h1>Advanced Search</h1>   
+            <form action="https://google.com/search">
+                <div class="advanced-container">
+                    <h4>Find pages with...</h4>   
+                    <div class="advanced-box">
+                        <label for="q1">all these words: </label><input type="text" name="as_q" id="q1">
+                    </div>
+                    <div class="advanced-box">
+                        <label for="q2">this exact word or phrase: </label><input type="text" name="as_epq" id="q2">
+
+                    </div>
+                    <div class="advanced-box">
+                        <label for="q3">any of these words: </label><input type="text" name="as_oq" id="q3">
+
+                    </div>
+                    <div class="advanced-box">
+                        <label for="q4">none of these words: </label><input type="text" name="as_eq" id="q4">
+
+                    </div>
+                    <div class="advanced-search-btn">
+                        <button type="submit">Advanced Search</button>
+                    </div>
+                </div>
+              
+            </form>
+        </main>
+
+        
+    </body>
+</html>
